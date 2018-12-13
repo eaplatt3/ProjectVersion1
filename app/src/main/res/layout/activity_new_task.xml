@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorCashmere"
     tools:context=".NewTaskActivity">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_marginTop="16dp"
         android:textSize="20dp"
         android:text="New Task"
+        android:textColor="@color/colorGunmetal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
+        android:textColor="@color/colorGunmetal"
         android:text="@string/location_prompt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
@@ -32,10 +35,13 @@
         android:layout_width="220dp"
         android:layout_height="23dp"
         android:layout_marginStart="16dp"
+        android:textColor="@color/colorGunmetal"
         android:entries="@array/location_array"
         android:prompt="@string/location_prompt"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"></Spinner>
+        app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+    </Spinner>
 
     <TextView
         android:id="@+id/textView21"
@@ -43,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
+        android:textColor="@color/colorGunmetal"
         android:text="@string/task_prompt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/room_spinner" />
@@ -53,9 +60,12 @@
         android:layout_height="23dp"
         android:layout_marginStart="16dp"
         android:entries="@array/task_array"
+        android:textColor="@color/colorGunmetal"
         android:prompt="@string/task_prompt"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"></Spinner>
+        app:layout_constraintTop_toBottomOf="@+id/textView21">
+
+    </Spinner>
 
     <TextView
         android:id="@+id/textView22"
@@ -63,6 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
+        android:textColor="@color/colorGunmetal"
         android:text="Assign to:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/task_spinner" />
@@ -72,10 +83,13 @@
         android:layout_width="220dp"
         android:layout_height="23dp"
         android:layout_marginStart="16dp"
+        android:textColor="@color/colorGunmetal"
         android:layout_marginTop="60dp"
         android:entries="@array/employee_array"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"></Spinner>
+        app:layout_constraintTop_toBottomOf="@+id/textView21">
+
+    </Spinner>
 
     <TextView
         android:id="@+id/textView23"
@@ -83,6 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
+        android:textColor="@color/colorGunmetal"
         android:text="Details:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employee_spinner" />
@@ -92,6 +107,7 @@
         android:layout_width="223dp"
         android:layout_height="42dp"
         android:layout_marginStart="16dp"
+        android:textColor="@color/colorGunmetal"
         android:ems="10"
         android:inputType="textMultiLine"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,6 +119,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:textColor="@color/colorGunmetal"
+        android:background="@color/colorGray"
         android:text="Create Task"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
@@ -113,6 +131,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
+        android:textColor="@color/colorGunmetal"
         android:text="Select Room:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/location_spinner" />
@@ -122,16 +141,21 @@
         android:layout_width="220dp"
         android:layout_height="23dp"
         android:layout_marginStart="16dp"
+        android:textColor="@color/colorGunmetal"
         android:entries="@array/room_array"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView24"></Spinner>
+        app:layout_constraintTop_toBottomOf="@+id/textView24">
+
+    </Spinner>
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:textColor="@color/colorGunmetal"
         android:layout_marginTop="24dp"
+        android:background="@color/colorGray"
         android:text="Add Material"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />

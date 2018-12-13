@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/colorCashmere"
     android:layout_height="match_parent"
     tools:context=".CommentActivity">
 
@@ -14,6 +15,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="Task: Install Toilet"
+        android:textColor="@color/colorGunmetal"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.039"
@@ -28,6 +30,7 @@
         android:layout_marginTop="64dp"
         android:layout_marginEnd="8dp"
         android:text="Room: Bathroom #1"
+        android:textColor="@color/colorGunmetal"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.034"
@@ -40,6 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="68dp"
+        android:textColor="@color/colorGunmetal"
         android:text="Comments:"
         android:textSize="20sp"
 
@@ -53,6 +57,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
         android:text="User99 - 12/01/18 7:00 PM"
+        android:textColor="@color/colorGunmetal"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -62,6 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
+        android:textColor="@color/colorGunmetal"
         android:text="New toilet purchased, toilet tank installed onto toilet base, ready for installatiion."
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,6 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="124dp"
         android:layout_marginTop="132dp"
+        android:textColor="@color/colorGunmetal"
         android:text="Add Materials"
         android:onClick="openMaterials"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,6 +91,7 @@
         android:layout_height="20dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="8dp"
+        android:textColor="@color/colorGunmetal"
         android:text="American Standard Cadet 3                                               $158.00"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
@@ -93,6 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="19dp"
         android:layout_marginStart="12dp"
+        android:textColor="@color/colorGunmetal"
         android:text="Toilet supply line                                                                       $5.68"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -103,6 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="8dp"
+        android:textColor="@color/colorGunmetal"
         android:text="Status: Incomplete"
         android:textStyle="bold"
         android:textSize="15sp"
@@ -115,6 +125,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
+        android:textColor="@color/colorGunmetal"
         android:text="Assigned: User99"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
